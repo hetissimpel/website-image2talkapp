@@ -1,0 +1,28 @@
+body #wrapper {
+	background-image: url(../img/header-back.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+body.home #wrapper {
+	background-image: url(../img/intro-back.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+body, body.home {
+	background-image: url(../img/back_main.png);
+	background-position: top center;
+	background-repeat: repeat-y;
+}
+
+#googleplus-widget {display: none;}
+.home div#socialmediawidgets {width: 199px;}
+
+.socialwidget {
+	
+	width:62px;
+	
+	}
+	
+.home .socialwidget {width: auto;}

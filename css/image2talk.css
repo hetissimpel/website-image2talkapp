@@ -1,0 +1,759 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+/* @group CSS Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+	vertical-align: top;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* @end */
+
+
+
+/* @group Definition */
+
+body {
+    text-align: center;
+	margin:0;
+	font-size: 76%;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	line-height: 130%;
+	background-color: #f2f2f2;
+	background-image:  url(../img/header-back.png), url(../img/back_main.png);
+	background-position: center top, center top;
+	background-repeat: no-repeat,  repeat-y;	
+}
+
+body.home{
+	
+	background-image:  url(../img/intro-back.png), url(../img/back_main.png);
+	background-position: center top, center top;
+	background-repeat: no-repeat,  repeat-y;	
+}
+
+div#container{
+	position: relative;
+	display: block;	
+	margin: 0 auto;
+	text-align: left;
+	width: 960px;
+	overflow: hidden;
+	font-size: 1.1em;
+	line-height: 160%;
+	}
+a{
+	color: #b50000;
+	text-decoration: none;
+/*	border-bottom: 1px dotted #b50000;*/
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+a:hover{
+	color: #fff;
+	text-decoration: none;
+	background-color: #b50000;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	
+}
+
+
+
+h1,h2{
+	font-weight: normal;
+	line-height: 130%;
+	margin-top: 4px;
+	float: none;
+	color: #b50000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: left;
+}
+body.home h1, body.home h2{
+	text-align: center;
+}
+
+
+h1{	font-size: 2em; margin-bottom: 12px;}
+h2{	font-size: 1.5em;
+margin-bottom: 8px;}
+.small{
+	font-size: 90%;
+}
+#logo, #nav, #nav ul, #nav li {
+	float: left;
+	display: block;
+}
+
+#text h2 a.top {
+	text-align: right;
+	font-size:0.6em;
+	
+	padding:0 3px 0 3px;
+	line-height:1.3em;
+	position: absolute;
+	right:-50px;
+	top:5px;
+	
+	}
+	
+#text h2 { position: relative;}
+
+
+/* @end */
+
+
+
+/* @group Header */
+
+#header{
+	display: block;
+	width: 960px;
+	height:32px;
+	margin-top: 0px;
+	margin-left: 0px;
+	background-color: #000000;
+	}
+
+#header #appstore{
+	float: right;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+
+
+/* @end */
+
+
+/* @group text */
+
+.hometext{
+	color: #333333;
+	display: block;
+	margin: 0 auto;	
+	overflow: hidden;
+	margin-top: 24px;
+	
+}
+#features {
+	margin-top: 16px;
+	
+}
+
+.hometext p {
+	margin-top:5px;
+} 
+
+.bottomline{
+	display: block;
+	width: 600px;
+	height: 1px;
+	margin: 0 auto;
+	background-color: #cccccc;
+	margin-top: 20px;
+	
+	clear: left;
+}
+
+
+
+#fiona.hometext {
+	width: 650px;
+	margin-top: 33px;
+	margin-bottom: 502px;
+}
+
+a#fionavideo img {float: left;}
+a#fionavideo {float: left; display: block; margin-right:9px; padding:7px 6px 20px 6px; }
+a#fionavideo:hover {background: none; border: none;}
+	
+a#fionavideo:hover img {
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	-webkit-box-shadow: 0px 0px 8px #B50000;
+	-moz-box-shadow: 0px 0px 8px #B50000;
+	box-shadow: 0px 0px 8px #B50000;
+	background: none;
+	-webkit-background-clip: padding-box;
+	}
+
+
+#features.hometext {
+	width: 800px;
+
+}
+#asused.hometext {
+	width: 840px;
+
+}
+#weather.hometext{
+	width:600px;
+	text-align: center;
+}
+
+#weatherblocks {
+	margin: 0 auto 5px auto;
+	overflow: hidden;
+	width: 464px;
+}
+
+.appstore{
+	text-align: center;
+}
+
+.appstore a:hover {
+	/*background: none;*/
+}
+
+.text{
+	display: block;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+	height: auto;	
+}
+
+#features .text{
+	width: 380px;
+}
+
+
+.right{
+	text-align: right;
+}
+#asused .text{
+	width: 254px;
+}
+#asused .video{
+	display: block;
+	float:left;
+	height: 100px;
+	width:136px;
+	margin:0 5px 0 5px;
+}
+#fiona.hometext h1{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.35em;
+	font-style: italic;
+	font-weight: normal;
+	margin: 0px;
+	color: #333333;
+	text-align: left;
+	line-height:1.25em;
+	padding-top:6px;
+}
+p.reff{
+	font-size: 0.9em;
+	color: #b50000;
+	color:#666;
+	
+}
+
+.link{
+	display: block;
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	
+	
+}
+
+.quotec {
+	display: block;
+	float: left;
+	clear: both;
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 1.35em;
+	line-height: 1.3em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+
+.quotecs {
+	display: block;
+	float: left;
+	clear: both;
+	width: 86%;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 7%;
+	font-size: 1.1em;
+	line-height: 160%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+.quotec p {
+	display: block;
+	
+}
+
+.quotec span.small, .quotecs span.small{
+	color:#666;
+	line-height:2em;
+	font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	margin-top:5px;
+	display: block;
+}
+
+.video a:hover {background: none; border: none;}
+.video a:hover img {
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	-webkit-box-shadow: 0px 0px 8px #B50000;
+	-moz-box-shadow: 0px 0px 8px #B50000;
+	box-shadow: 0px 0px 8px #B50000;
+	-webkit-background-clip: padding-box;
+  }
+
+	
+	
+
+/* @end */
+
+
+
+/* @group Canvas */
+
+
+#canvas{
+	display: block;
+	width: 960px;
+	padding-bottom: 100px;	
+	overflow: hidden;
+}
+
+
+#nav{
+	margin-left: 77px;
+	margin-top: 7px;
+
+}
+/*body.home #nav{
+	position: absolute;
+	top: 56px;
+	left: 22px;
+	margin: 0px;
+}*/
+
+li a{
+	color: #333333;
+	text-decoration: none;
+	border-bottom: none;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+li a:hover, li a.selected{
+	color: #fff;
+	text-decoration: none;
+	background-color: #b50000;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	border-bottom: none;
+}
+li{
+	margin-right: 20px;
+}
+
+#nav li a{
+	color: #fff;
+	display: block;
+	padding-top: 3px;
+	padding-bottom: 4px;
+	padding-left:6px;
+	padding-right:6px;
+	line-height:1.1em;
+}
+
+
+
+
+
+div#socialmediawidgets {
+	margin:0 0 0px 0;
+	overflow:hidden;
+	width:61px;
+	position: absolute;
+	right: 12px;
+	top: 64px;
+	z-index:1000;}
+
+.home div#socialmediawidgets, .weather div#socialmediawidgets {
+	margin: 24px auto 30px auto; 
+	overflow:hidden;  
+	width: 265px; 
+	position: static;}
+
+
+.socialwidget {
+	display: block;
+	overflow: hidden;
+	margin:0 0 18px 0;
+	float:right;
+	
+	
+	}
+
+.home .socialwidget, .weather .socialwidget {
+	float: left;
+	display: block;
+	overflow: hidden;
+	margin:0 5px;
+	
+	
+	}
+
+
+#maintext {
+	margin-top: 27px;
+	margin-left: 36px;
+	width:924px; 
+	clear:both;
+	position: relative;
+	overflow: hidden;
+	float: left;
+}
+
+
+
+#questions{
+	display: block;
+	width: 260px;
+	float: left;
+	margin-left: 26px;
+	margin-right: 26px;
+	position: absolute;
+	top:0;
+	left: 0;
+	padding-top: 60px;
+}
+
+body.weather #maintext #questions{
+	display: block;
+	width: 300px;
+	float: left;
+	position: static;
+}
+
+
+#text{
+	display: block;
+	width: 520px;
+	float: left;
+	margin-right: 36px;	
+
+
+}
+
+.faq #text{
+	margin-left:290px;
+
+
+
+}
+
+#sidebar {
+	display: block;
+	width: 260px;
+	float: left;
+	
+}
+
+#sidebar p.imgdesc { float:right; margin:6px 0 0 0; font-size:0.9em; color:#666; text-align: right;}
+
+
+body.faq #questions{
+	margin-left: 0px;
+	
+}
+#text h1{
+	margin-top: 0px;
+	margin-bottom: 15px;
+	line-height:1.2em;
+}
+
+#text p{
+	font-size: 110%;
+	line-height: 150%;
+	margin-bottom: 12px;
+}
+#text ul li, ol li {
+	font-size: 105%;
+	line-height: 1.3em;
+	display: list-item;
+	margin: 0 0 5px 1.5em;
+	list-style-type: disc;
+	list-style-position: outside;
+	vertical-align: top;
+	
+}
+ol li{
+	color: #7a7a7a;
+	list-style-type: decimal;
+	list-style-position: outside;
+	margin-left:2em;
+
+}
+ol li a{
+	color: #7a7a7a;
+	padding-left: 0px;
+}
+
+#text ul{
+	margin-bottom: 18px; 
+/*	margin-top: -12px;*/
+}
+
+
+p.half{
+	width: 36%;
+	margin-right: 20px;
+	margin-top: 12px;
+	float: left;
+	font-size: 1em;
+}
+
+#footer{
+	
+	padding-top: 0px;
+	font-size: 0.8em;
+	color: #7f7f7f;
+	display: block;
+	width: 900px;
+	margin-left:22px;
+	-moz-border-bottom-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	-moz-border-bottom-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	padding-bottom: 10px;	
+	margin-bottom: 100px;
+	clear: both;
+
+}
+
+#footer img {
+	display: block;
+	margin:0;
+}
+
+#footer a{
+	color: #7f7f7f;
+	text-decoration: none;
+	border-bottom: none;
+}
+#footer a:hover{
+	color: #fff;
+	text-decoration: none;
+	background-color: #7f7f7f;
+}
+
+#footer p{
+	margin-left: 48px;
+	margin-top: 8px;
+}
+
+
+/* @end */
+
+/* @group Weather */
+
+.weather1, .weather2, .weather3, .weather4{
+	display: block;
+	float: left;
+	width: 120px;
+	height: 120px;
+	text-align: center;
+} 
+
+.weather1, .weather1text{background: url(../img/weather01_120.png) no-repeat;}
+.weather2, .weather2text{background: url(../img/weather02_120.png) no-repeat;}
+.weather3, .weather3text{background: url(../img/weather03_120.png) no-repeat;}
+.weather4, .weather4text{background: url(../img/weather04_120.png) no-repeat;}
+
+#weatherdiv {margin-left:36px; width:908px; float: left; clear:both; padding-bottom:50px; padding-top:20px;}
+
+#weatherdiv p {margin-bottom:20px;
+}
+
+#floater{float:left; height:50%; margin-bottom:-60px;}
+#content{clear:both; height:120px; position:relative;}
+
+.threewide{width:160px; background-position: center; } 
+
+.weather1overall {background: url(../img/weather01.png) no-repeat; }
+.weather2overall {background: url(../img/weather02.png) no-repeat; }
+.weather3overall {background: url(../img/weather03.png) no-repeat;	}
+.weather4overall {background: url(../img/weather04.png) no-repeat; }
+
+.weather1overall, .weather2overall, .weather3overall, .weather4overall{
+	display: block;
+	float: left;
+	text-align: center;
+	padding-top: 86px;
+	width: 112px;
+	font: bold 1.6em Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	margin-left: 2px;
+	margin-right: 2px;
+	background-position: top center;
+} 
+
+
+.overall{
+
+}
+
+/*
+    ColorBox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+
+#colorbox p {width: 480px; margin:15px 10px 0px 10px; font-size: 1em; line-height:1.4em; font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; text-align: left;}
+
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of ColorBox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:url(../img/colorbox/overlay.png) repeat 0 0;}
+#colorbox{}
+    #cboxTopLeft{width:21px; height:21px; background:url(../img/colorbox/controls.png) no-repeat -101px 0;}
+    #cboxTopRight{width:21px; height:21px; background:url(../img/colorbox/controls.png) no-repeat -130px 0;}
+    #cboxBottomLeft{width:21px; height:21px; background:url(../img/colorbox/controls.png) no-repeat -101px -29px;}
+    #cboxBottomRight{width:21px; height:21px; background:url(../img/colorbox/controls.png) no-repeat -130px -29px;}
+    #cboxMiddleLeft{width:21px; background:url(../img/colorbox/controls.png) left top repeat-y;}
+    #cboxMiddleRight{width:21px; background:url(../img/colorbox/controls.png) right top repeat-y;}
+    #cboxTopCenter{height:21px; background:url(../img/colorbox/border.png) 0 0 repeat-x;}
+    #cboxBottomCenter{height:21px; background:url(../img/colorbox/border.png) 0 -29px repeat-x;}
+    #cboxContent{background:#fff; overflow:hidden;}
+        .cboxIframe{background:#fff;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{margin-bottom:28px;}
+        #cboxTitle{position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;}
+        #cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
+        #cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
+        #cboxPrevious{position:absolute; bottom:0; left:0; background:url(../img/colorbox/controls.png) no-repeat -75px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxPrevious:hover{background-position:-75px -25px;}
+        #cboxNext{position:absolute; bottom:0; left:27px; background:url(../img/colorbox/controls.png) no-repeat -50px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxNext:hover{background-position:-50px -25px;}
+        #cboxLoadingOverlay{background:url(../img/colorbox/loading_background.png) no-repeat center center;}
+        #cboxLoadingGraphic{background:url(../img/colorbox/loading.gif) no-repeat center center;}
+        #cboxClose{position:absolute; bottom:0; right:0; background:url(../img/colorbox/controls.png) no-repeat -25px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxClose:hover{background-position:-25px -25px;}
+
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.
+  See: http://jacklmoore.com/notes/ie-transparency-problems/
+*/
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}
+
+/*
+  The following provides PNG transparency support for IE6
+  Feel free to remove this and the /ie6/ directory if you have dropped IE6 support.
+*/
+.cboxIE6 #cboxTopLeft{background:url(../img/colorbox/ie6/borderTopLeft.png);}
+.cboxIE6 #cboxTopCenter{background:url(../img/colorbox/ie6/borderTopCenter.png);}
+.cboxIE6 #cboxTopRight{background:url(../img/colorbox/ie6/borderTopRight.png);}
+.cboxIE6 #cboxBottomLeft{background:url(../img/colorbox/ie6/borderBottomLeft.png);}
+.cboxIE6 #cboxBottomCenter{background:url(../img/colorbox/ie6/borderBottomCenter.png);}
+.cboxIE6 #cboxBottomRight{background:url(../img/colorbox/ie6/borderBottomRight.png);}
+.cboxIE6 #cboxMiddleLeft{background:url(../img/colorbox/ie6/borderMiddleLeft.png);}
+.cboxIE6 #cboxMiddleRight{background:url(../img/colorbox/ie6/borderMiddleRight.png);}
+
+.cboxIE6 #cboxTopLeft,
+.cboxIE6 #cboxTopCenter,
+.cboxIE6 #cboxTopRight,
+.cboxIE6 #cboxBottomLeft,
+.cboxIE6 #cboxBottomCenter,
+.cboxIE6 #cboxBottomRight,
+.cboxIE6 #cboxMiddleLeft,
+.cboxIE6 #cboxMiddleRight {
+    _behavior: expression(this.src = this.src ? this.src : this.currentStyle.backgroundImage.split('"')[1], this.style.background = "none", this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=" + this.src + ", sizingMethod='scale')");
+}
+
+
+
+/* @end */
+
+
