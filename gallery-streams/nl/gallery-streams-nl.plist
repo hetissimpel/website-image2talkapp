@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0"><dict><key>gallery-url</key><string>http://image2talkapp.com/gallery-streams/nl</string><key>streams</key><dict>
+<plist version="1.0"><dict><key>gallery-url</key><string>http://image2talkapp.com/gallery-streams</string><key>streams</key><dict>
 
 <key>stream-1</key><dict><key>name</key><string>Korte reacties</string><key>subtitle</key><string>Ja, Nee, Help, Toilet</string><key>images</key><dict>
 
@@ -11,7 +11,7 @@
 </dict></dict>
 
 
-<key>stream-2</key><dict><key>name</key><string>Eten</string><key>subtitle</key><string>Zoet & zout</string><key>images</key><dict>
+<key>stream-2</key><dict><key>name</key><string>Eten</string><key>subtitle</key><string>Zoet &amp; zout</string><key>images</key><dict>
 <key>image-1</key><dict><key>thumbnail</key><string>food/biscuit_160</string><key>picture</key><string>food/biscuit_768</string><key>display-text</key><string>koekje</string><key>speech-text</key><string>Ik wil een koekje</string><key>speech</key><string>speech/biscuit_768</string></dict>
 <key>image-2</key><dict><key>thumbnail</key><string>food/boiled-potatoes_160</string><key>picture</key><string>food/boiled-potatoes_768</string><key>display-text</key><string>gekookte aardappelen</string><key>speech-text</key><string>Ik wil gekookte aardappelen</string><key>speech</key><string>speech/boiled-potatoes_768</string></dict>
 <key>image-3</key><dict><key>thumbnail</key><string>food/bread_160</string><key>picture</key><string>food/bread_768</string><key>display-text</key><string>brood</string><key>speech-text</key><string>Ik wil brood</string><key>speech</key><string>speech/bread_768</string></dict>
