@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0"><dict><key>gallery-url</key><string>http://image2talkapp.com/gallery-streams</string><key>streams</key><dict>
+<plist version="1.0"><dict><key>gallery-url</key><string>http://image2talkapp.com/gallery-streams/nl</string><key>streams</key><dict>
 
-<key>stream-1</key><dict><key>name</key><string>Quick responses</string><key>subtitle</key><string>yes, no, help,toilet</string><key>images</key><dict>
+<key>stream-1</key><dict><key>name</key><string>Korte reacties</string><key>subtitle</key><string>Ja, Nee, Help, Toilet</string><key>images</key><dict>
+
 <key>image-1</key><dict><key>thumbnail</key><string>quick/yes_160</string><key>picture</key><string>quick/yes_768</string><key>display-text</key><string>ja</string><key>speech-text</key><string>ja</string><key>speech</key><string>speech/yes_768</string></dict>
 <key>image-2</key><dict><key>thumbnail</key><string>quick/no_160</string><key>picture</key><string>quick/no_768</string><key>display-text</key><string>nee</string><key>speech-text</key><string>geen</string><key>speech</key><string>speech/no_768</string></dict>
 <key>image-3</key><dict><key>thumbnail</key><string>quick/toilet_160</string><key>picture</key><string>quick/toilet_768</string><key>display-text</key><string>toilet</string><key>speech-text</key><string>Ik moet naar de wc</string><key>speech</key><string>speech/toilet_768</string></dict>
@@ -10,7 +11,7 @@
 </dict></dict>
 
 
-<key>stream-2</key><dict><key>name</key><string>Food</string><key>subtitle</key><string>selection of sweet and savoury foods</string><key>images</key><dict>
+<key>stream-2</key><dict><key>name</key><string>Eten</string><key>subtitle</key><string>Zoet & zout</string><key>images</key><dict>
 <key>image-1</key><dict><key>thumbnail</key><string>food/biscuit_160</string><key>picture</key><string>food/biscuit_768</string><key>display-text</key><string>koekje</string><key>speech-text</key><string>Ik wil een koekje</string><key>speech</key><string>speech/biscuit_768</string></dict>
 <key>image-2</key><dict><key>thumbnail</key><string>food/boiled-potatoes_160</string><key>picture</key><string>food/boiled-potatoes_768</string><key>display-text</key><string>gekookte aardappelen</string><key>speech-text</key><string>Ik wil gekookte aardappelen</string><key>speech</key><string>speech/boiled-potatoes_768</string></dict>
 <key>image-3</key><dict><key>thumbnail</key><string>food/bread_160</string><key>picture</key><string>food/bread_768</string><key>display-text</key><string>brood</string><key>speech-text</key><string>Ik wil brood</string><key>speech</key><string>speech/bread_768</string></dict>
@@ -49,7 +50,7 @@
 <key>image-36</key><dict><key>thumbnail</key><string>food/yogurt_160</string><key>picture</key><string>food/yogurt_768</string><key>display-text</key><string>yoghurt</string><key>speech-text</key><string>Ik wil yoghurt</string><key>speech</key><string>speech/yogurt_768</string></dict>
 </dict></dict>
 
-<key>stream-3</key><dict><key>name</key><string>Fruit and Vegetables</string><key>subtitle</key><string>selection of fruits and vegetables </string><key>images</key><dict>
+<key>stream-3</key><dict><key>name</key><string>Groente en fruit</string><key>subtitle</key><string>Selectie van groente en fruit</string><key>images</key><dict>
 <key>image-1</key><dict><key>thumbnail</key><string>fruit/apple_160</string><key>picture</key><string>fruit/apple_768</string><key>display-text</key><string>appel</string><key>speech-text</key><string>Ik wil een appel</string><key>speech</key><string>speech/apple_768</string></dict>
 <key>image-2</key><dict><key>thumbnail</key><string>fruit/banana_160</string><key>picture</key><string>fruit/banana_768</string><key>display-text</key><string>banaan</string><key>speech-text</key><string>Ik wil een banaan</string><key>speech</key><string>speech/banana_768</string></dict>
 <key>image-3</key><dict><key>thumbnail</key><string>fruit/broccoli_160</string><key>picture</key><string>fruit/broccoli_768</string><key>display-text</key><string>broccoli</string><key>speech-text</key><string>Ik wil broccoli</string><key>speech</key><string>speech/broccoli_768</string></dict>
@@ -69,7 +70,7 @@
 <key>image-17</key><dict><key>thumbnail</key><string>fruit/tomato_160</string><key>picture</key><string>fruit/tomato_768</string><key>display-text</key><string>tomaat</string><key>speech-text</key><string>Ik wil een tomaat</string><key>speech</key><string>speech/tomato_768</string></dict>
 </dict></dict>
 
-<key>stream-4</key><dict><key>name</key><string>Drinks</string><key>subtitle</key><string>selection of hot and cold drinks</string><key>images</key><dict>
+<key>stream-4</key><dict><key>name</key><string>Drinken</string><key>subtitle</key><string>Warme en koude dranken</string><key>images</key><dict>
 <key>image-1</key><dict><key>thumbnail</key><string>drinks/7-up_160</string><key>picture</key><string>drinks/7-up_768</string><key>display-text</key><string>7 up</string><key>speech-text</key><string>Ik wil 7up</string><key>speech</key><string>speech/7-up_768</string></dict>
 <key>image-2</key><dict><key>thumbnail</key><string>drinks/apple-juice_160</string><key>picture</key><string>drinks/apple-juice_768</string><key>display-text</key><string>appelsap</string><key>speech-text</key><string>Ik wil appelsap</string><key>speech</key><string>speech/apple-juice_768</string></dict>
 <key>image-3</key><dict><key>thumbnail</key><string>drinks/bottle-of-water_160</string><key>picture</key><string>drinks/bottle-of-water_768</string><key>display-text</key><string>flesje water</string><key>speech-text</key><string>Ik wil een flesje water</string><key>speech</key><string>speech/bottle-of-water_768</string></dict>
@@ -87,7 +88,7 @@
 <key>image-15</key><dict><key>thumbnail</key><string>drinks/water_160</string><key>picture</key><string>drinks/water_768</string><key>display-text</key><string>water</string><key>speech-text</key><string>Ik wil water</string><key>speech</key><string>speech/water_768</string></dict>
 </dict></dict>
 
-<key>stream-5</key><dict><key>name</key><string>Activities</string><key>subtitle</key><string>selection of everyday activities</string><key>images</key><dict>
+<key>stream-5</key><dict><key>name</key><string>Activiteiten</string><key>subtitle</key><string>Dingen die je elke dag doet</string><key>images</key><dict>
 <key>image-1</key><dict><key>thumbnail</key><string>activities/bath_160</string><key>picture</key><string>activities/bath_768</string><key>display-text</key><string>bad</string><key>speech-text</key><string>Ik wil in bad</string><key>speech</key><string>speech/bath_768</string></dict>
 <key>image-2</key><dict><key>thumbnail</key><string>activities/bed_160</string><key>picture</key><string>activities/bed_768</string><key>display-text</key><string>bed</string><key>speech-text</key><string>Ik wil naar bed</string><key>speech</key><string>speech/bed_768</string></dict>
 <key>image-3</key><dict><key>thumbnail</key><string>activities/books_160</string><key>picture</key><string>activities/books_768</string><key>display-text</key><string>boeken</string><key>speech-text</key><string>Ik wil een boek</string><key>speech</key><string>speech/books_768</string></dict>
@@ -193,6 +194,7 @@
 </dict></dict>
 
 <key>stream-10</key><dict><key>name</key><string>Everyday conversation</string><key>subtitle</key><string>short phrases and words to engage in conversations</string><key>images</key><dict>
+
 <key>image-1</key><dict><key>thumbnail</key><string>phrases/hello_160</string><key>picture</key><string>phrases/hello_768</string><key>display-text</key><string>hallo</string><key>speech-text</key><string>hallo</string><key>speech</key><string>speech/hello_768</string></dict>
 <key>image-2</key><dict><key>thumbnail</key><string>phrases/howareyou_160</string><key>picture</key><string>phrases/howareyou_768</string><key>display-text</key><string>hoe gaat het?</string><key>speech-text</key><string>hoe gaat het?</string><key>speech</key><string>speech/howareyou_768</string></dict>
 <key>image-3</key><dict><key>thumbnail</key><string>phrases/thankyou_160</string><key>picture</key><string>phrases/thankyou_768</string><key>display-text</key><string>dank</string><key>speech-text</key><string>dank</string><key>speech</key><string>speech/thankyou_768</string></dict>
