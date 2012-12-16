@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict><key>gallery-url</key><string>
+http://image2talkapp.com/gallery-streams/nl
+</string><key>streams</key><dict>
+
+
+
+
+<key>stream-1</key><dict><key>name</key><string>Clothes</string><key>subtitle</key><string>selection of male and female clothes</string><key>images</key><dict>
+
+<key>image-1</key><dict><key>thumbnail</key><string>clothes/hat_160</string><key>picture</key><string>clothes/hat_768</string><key>display-text</key><string>muts</string><key>speech-text</key><string>Ik wil mijn muts</string><key>speech</key><string>speech/hat_768</string></dict>
+
+
+</dict></dict>
+
+
+
+
+</dict></dict></plist>
+
+
