@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0"><dict><key>gallery-url</key><string>http://image2talkapp.com/gallery-streams/nl</string><key>streams</key><dict>
+<plist version="1.0"><dict><key>gallery-url</key><string>http://image2talkapp.com/gallery-streams/nl</string>
+
+<key>streams</key><dict>
 
 <key>stream-1</key><dict><key>name</key><string>Korte reacties</string><key>subtitle</key><string>Ja, Nee, Help, Toilet</string><key>images</key><dict>
 
@@ -108,7 +110,7 @@
 <key>image-18</key><dict><key>thumbnail</key><string>activities/walking_160</string><key>picture</key><string>activities/walking_768</string><key>display-text</key><string>wandelen</string><key>speech-text</key><string>Ik wil wandelen</string><key>speech</key><string>speech/walking_768</string></dict>
 </dict></dict>
 
-<key>stream-7</key><dict><key>name</key><string>Places</string><key>subtitle</key><string>selection of common places</string><key>images</key><dict>
+<key>stream-7</key><dict><key>name</key><string>Plekken</string><key>subtitle</key><string>Diverse algemene plekken</string><key>images</key><dict>
 <key>image-1</key><dict><key>thumbnail</key><string>places/beach_160</string><key>picture</key><string>places/beach_768</string><key>display-text</key><string>strand</string><key>speech-text</key><string>Ik wil naar het strand</string><key>speech</key><string>speech/beach_768</string></dict>
 <key>image-2</key><dict><key>thumbnail</key><string>places/cafe_160</string><key>picture</key><string>places/cafe_768</string><key>display-text</key><string>café</string><key>speech-text</key><string>Mag ik naar het café?</string><key>speech</key><string>speech/cafe_768</string></dict>
 <key>image-3</key><dict><key>thumbnail</key><string>places/cinema_160</string><key>picture</key><string>places/cinema_768</string><key>display-text</key><string>bioscoop</string><key>speech-text</key><string>Ik wil graag naar de bioscoop</string><key>speech</key><string>speech/cinema_768</string></dict>
@@ -125,7 +127,7 @@
 </dict></dict>
 
 
-<key>stream-8</key><dict><key>name</key><string>Clothes</string><key>subtitle</key><string>selection of male and female clothes</string><key>images</key><dict>
+<key>stream-8</key><dict><key>name</key><string>Kleren</string><key>subtitle</key><string>Mannen- en vrouwenkleding</string><key>images</key><dict>
 <key>image-1</key><dict><key>thumbnail</key><string>clothes/cap_160</string><key>picture</key><string>clothes/cap_768</string><key>display-text</key><string>pet</string><key>speech-text</key><string>Ik wil een pet</string><key>speech</key><string>speech/cap_768</string></dict>
 <key>image-2</key><dict><key>thumbnail</key><string>clothes/coat_160</string><key>picture</key><string>clothes/coat_768</string><key>display-text</key><string>jas</string><key>speech-text</key><string>Ik wil een jas</string><key>speech</key><string>speech/coat_768</string></dict>
 <key>image-3</key><dict><key>thumbnail</key><string>clothes/dress_160</string><key>picture</key><string>clothes/dress_768</string><key>display-text</key><string>jurk</string><key>speech-text</key><string>Ik wil graag een jurk</string><key>speech</key><string>speech/dress_768</string></dict>
@@ -154,7 +156,7 @@
 
 
 
-<key>stream-9</key><dict><key>name</key><string>Objects</string><key>subtitle</key><string>selection of everyday objects</string><key>images</key><dict>
+<key>stream-9</key><dict><key>name</key><string>Dingen</string><key>subtitle</key><string>Alledaagse dingen</string><key>images</key><dict>
 <key>image-1</key><dict><key>thumbnail</key><string>objects/bag_160</string><key>picture</key><string>objects/bag_768</string><key>display-text</key><string>tas</string><key>speech-text</key><string>Ik wil een tas</string><key>speech</key><string>speech/bag_768</string></dict>
 <key>image-2</key><dict><key>thumbnail</key><string>objects/ball2_160</string><key>picture</key><string>objects/ball2_768</string><key>display-text</key><string>bal</string><key>speech-text</key><string>Ik wil een bal</string><key>speech</key><string>speech/ball2_768</string></dict>
 <key>image-3</key><dict><key>thumbnail</key><string>objects/blanket_160</string><key>picture</key><string>objects/blanket_768</string><key>display-text</key><string>deken</string><key>speech-text</key><string>Ik wil graag een deken</string><key>speech</key><string>speech/blanket_768</string></dict>
@@ -178,7 +180,7 @@
 </dict></dict>
 
 
-<key>stream-10</key><dict><key>name</key><string>Feelings</string><key>subtitle</key><string>selection of common feelings</string><key>images</key><dict>
+<key>stream-10</key><dict><key>name</key><string>Gevoelens</string><key>subtitle</key><string>Diverse gevoelens</string><key>images</key><dict>
 <key>image-1</key><dict><key>thumbnail</key><string>feelings/I-am-angry_160</string><key>picture</key><string>feelings/I-am-angry_768</string><key>display-text</key><string>Ik ben boos</string><key>speech-text</key><string>Ik ben boos</string><key>speech</key><string>speech/I-am-angry_768</string></dict>
 <key>image-2</key><dict><key>thumbnail</key><string>feelings/I-am-bored_160</string><key>picture</key><string>feelings/I-am-bored_768</string><key>display-text</key><string>Ik verveel me</string><key>speech-text</key><string>Ik verveel me</string><key>speech</key><string>speech/I-am-bored_768</string></dict>
 <key>image-3</key><dict><key>thumbnail</key><string>feelings/I-am-happy_160</string><key>picture</key><string>feelings/I-am-happy_768</string><key>display-text</key><string>Ik ben blij</string><key>speech-text</key><string>Ik ben blij</string><key>speech</key><string>speech/I-am-happy_768</string></dict>
@@ -192,7 +194,7 @@
 <key>image-11</key><dict><key>thumbnail</key><string>feelings/I-am-worried_160</string><key>picture</key><string>feelings/I-am-worried_768</string><key>display-text</key><string>Ik maak me zorgen</string><key>speech-text</key><string>Ik maak me zorgen</string><key>speech</key><string>speech/I-am-worried_768</string></dict>
 </dict></dict>
 
-<key>stream-11</key><dict><key>name</key><string>Everyday conversation</string><key>subtitle</key><string>short phrases and words to engage in conversations</string><key>images</key><dict>
+<key>stream-11</key><dict><key>name</key><string>Alledaagse zinnen</string><key>subtitle</key><string>Korte zinnen en woorden om een gesprek te starten</string><key>images</key><dict>
 
 <key>image-1</key><dict><key>thumbnail</key><string>phrases/hello_160</string><key>picture</key><string>phrases/hello_768</string><key>display-text</key><string>hallo</string><key>speech-text</key><string>hallo</string><key>speech</key><string>speech/hello_768</string></dict>
 <key>image-2</key><dict><key>thumbnail</key><string>phrases/howareyou_160</string><key>picture</key><string>phrases/howareyou_768</string><key>display-text</key><string>hoe gaat het?</string><key>speech-text</key><string>hoe gaat het?</string><key>speech</key><string>speech/howareyou_768</string></dict>
