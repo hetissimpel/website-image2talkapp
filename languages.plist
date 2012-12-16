@@ -12,13 +12,55 @@
 		<key>code</key>
 		<string>nl</string>
 		<key>name</key>
-		<string>Nederlands</string>
+		<string>Dutch</string>
 	</dict>
 	<dict>
 		<key>code</key>
 		<string>fr</string>
 		<key>name</key>
-		<string>French</string>
+		<string>French - Only Voice, No Gallery</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>de</string>
+		<key>name</key>
+		<string>German - Only Voice, No Gallery</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>it</string>
+		<key>name</key>
+		<string>Italian - Only Voice, No Gallery</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>ja</string>
+		<key>name</key>
+		<string>Japanese - Only Voice, No Gallery</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>ko</string>
+		<key>name</key>
+		<string>Korean - Only Voice, No Gallery</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>pt</string>
+		<key>name</key>
+		<string>Portuguese - Only Voice, No Gallery</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>es</string>
+		<key>name</key>
+		<string>Spanish - Only Voice, No Gallery</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>zh-CN</string>
+		<key>name</key>
+		<string>Chinese (simplified) - Only Voice, No Gallery</string>
 	</dict>
 </array>
 </plist>
