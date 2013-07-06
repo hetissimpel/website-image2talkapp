@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>code</key>
+		<string>en-US</string>
+		<key>name</key>
+		<string>English (US)</string>
+		<key>voices</key>
+		<array>
+			<dict>
+				<key>description</key>
+				<string>Tracy - Female</string>
+				<key>code</key>
+				<string>VOICE1</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>en-GB</string>
+		<key>name</key>
+		<string>English (UK)</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>nl-B</string>
+		<key>name</key>
+		<string>Dutch (B)</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>nl-NL</string>
+		<key>name</key>
+		<string>Dutch (NL)</string>
+	</dict>
+</array>
+</plist>
