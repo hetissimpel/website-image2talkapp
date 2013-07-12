@@ -14,6 +14,8 @@
 				<string>Tracy - Female</string>
 				<key>code</key>
 				<string>VOICE1</string>
+				<key>sample-url</key>
+				<string>http://bing.com</string>
 			</dict>
 		</array>
 	</dict>
