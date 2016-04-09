@@ -62,11 +62,5 @@
 		<key>name</key>
 		<string>Chinese (simplified) - Only Voice, No Gallery</string>
 	</dict>
-	<dict>
-		<key>code</key>
-		<string>hu</string>
-		<key>name</key>
-		<string>Hungarian - Only Voice, No Gallery</string>
-	</dict>
 </array>
 </plist>
